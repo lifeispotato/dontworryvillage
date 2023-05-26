@@ -1,0 +1,221 @@
+.go-back-container-gathering-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-gathering-review div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-gathering-review div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.gathering-review-menu-container {
+  width: 924px;
+  height: 43px;
+  border-bottom: 1px solid #f2f4f5;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  box-sizing: border-box;
+}
+
+.gathering-review-menu-container a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.003em;
+  color: #808991;
+  display: inline-block;
+  width: 139px;
+  height: 43px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gathering-review-menu-container a:hover {
+  color: #3ac8f5;
+  border-bottom: 2px solid #3ac8f5;
+}
+
+.manage-form-gathering-review {
+  position: relative;
+  padding: 50px 48px 50px 48px;
+  height: 734px;
+}
+
+.gathering-review-title > span:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  padding-right: 10px;
+}
+
+.gathering-review-title > span:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-form-gathering-review > div {
+  margin-bottom: 30px;
+}
+
+.gathering-review-title {
+  display: flex;
+  align-items: center;
+}
+
+.gathering-review-table {
+  width: 828px;
+  box-sizing: border-box;
+  border-top: 0.5px solid #77808850;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.gathering-review-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.gathering-review-table tbody tr {
+  box-sizing: border-box;
+  height: 59px;
+  border-bottom: 0.5px solid #dfe1e450;
+}
+
+.gathering-review-table thead tr th,
+.gathering-review-table tbody tr td {
+  padding: 0;
+}
+
+.gathering-review-table thead tr th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #778088;
+}
+
+.gathering-review-table tbody tr td {
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #636c73;
+}
+
+.gathering-review-table thead tr th:first-child,
+.gathering-review-table tbody tr td:first-child {
+  padding-left: 30px;
+  text-align: left;
+  width: 171px;
+}
+
+.gathering-review-table thead tr th:nth-child(2),
+.gathering-review-table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 178px;
+}
+
+.gathering-review-table tbody tr td:nth-child(2) span {
+  display: block;
+  width: 156px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.gathering-review-table thead tr th:nth-child(3),
+.gathering-review-table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 134px;
+}
+
+.gathering-review-table thead tr th:nth-child(4),
+.gathering-review-table tbody tr td:nth-child(4) {
+  text-align: center;
+  width: 25px;
+  padding-right: 75px;
+}
+
+.gathering-review-table thead tr th:nth-child(5),
+.gathering-review-table tbody tr td:nth-child(5) {
+  text-align: left;
+  width: 130px;
+}
+
+.gathering-review-table tbody tr td:nth-child(5) a {
+  display: flex;
+  align-items: center;
+  height: 59px;
+}
+
+.gathering-review-table tbody tr td:nth-child(5) a span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #262c31;
+}
+
+.gathering-review-table tbody tr td:nth-child(5) span {
+  margin-right: 10px;
+}
+
+.gathering-review-table thead tr th:last-child,
+.gathering-review-table tbody tr td:last-child {
+  text-align: center;
+  width: 130px;
+  padding-right: 31px;
+  width: 57px;
+}
+
+.gathering-review-table tbody tr td:last-child a {
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 29px;
+  /* padding: 3px 8px; */
+}
+
+.gathering-review-table tbody tr td:last-child img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

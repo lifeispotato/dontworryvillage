@@ -1,0 +1,121 @@
+.go-back-container-program-seemore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-program-seemore div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-program-seemore div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+  margin-right: 7px;
+}
+
+.go-back-container-program-seemore div:nth-child(2) a:nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #262c31;
+}
+
+.manage-form-program-see-more {
+  padding: 48px 88px 48px 48px;
+  height: 844px;
+}
+
+.manage-form-program-see-more > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 34px;
+}
+
+.Manage-form-view-details-program-seemore span:first-child {
+  width: 152px;
+}
+
+.Manage-form-view-details-program-seemore:nth-child(3) {
+  align-items: flex-start;
+}
+
+.Manage-form-view-details-program-seemore:last-child {
+  align-items: flex-start;
+}
+
+.Manage-form-view-details-img-program {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Manage-form-view-details-program-seemore span:nth-child(2) {
+  width: 636px;
+}
+
+.Manage-form-view-details-img-program div:first-child img {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.Manage-form-view-details-img-program div:nth-child(2) a {
+  border: 1px solid #eef2f3;
+  border-radius: 34px;
+  padding: 6px 10px 7px 13px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 134px;
+  height: 37px;
+  cursor: pointer;
+}
+
+.Manage-form-view-details-img-program div:nth-child(2) span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #262c31;
+}
+
+.Manage-form-view-details-img-program div:nth-child(2) img {
+  width: 24px;
+  height: 24px;
+}

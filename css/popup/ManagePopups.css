@@ -1,0 +1,136 @@
+.manage-table-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 1043px;
+}
+
+.manage-add-popups {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.manage-add-popups div span:first-child {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #adb4ba;
+  margin-right: 7px;
+}
+
+.manage-add-popups div span:nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #262c31;
+}
+
+.manage-add-popups button {
+  background: #262c31;
+  border: none;
+  border-radius: 21px;
+  padding: 7px 18px 6px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.manage-add-popups button img {
+  width: 12px;
+  height: 12px;
+}
+
+.manage-add-popups button span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.manage-table-popups table tbody {
+  padding-right: 53px;
+}
+
+.manage-table-popups table thead tr th:first-child,
+.manage-table-popups table tbody tr td:first-child {
+  padding-left: 20px;
+  text-align: left;
+  width: 724px;
+}
+
+.manage-table-popups table thead tr th:nth-child(2),
+.manage-table-popups table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 156px;
+}
+
+.manage-table-popups table thead tr th:nth-child(3),
+.manage-table-popups table tbody tr td:nth-child(3) {
+  text-align: center;
+  padding-right: 8px;
+  width: 43px;
+}
+
+.manage-table-popups table thead tr th:nth-child(4),
+.manage-table-popups table tbody tr td:nth-child(4) {
+  text-align: center;
+  width: 43px;
+}
+
+.manage-table-popups table tbody tr td:nth-child(3) a {
+  padding: 3px 8px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.manage-table-popups table tbody tr td:nth-child(4) a {
+  padding: 3px 8px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #808991;
+}
+
+.manage-table-popups table thead tr th:last-child,
+.manage-table-popups table tbody tr td:last-child {
+  padding-right: 53px;
+}
+
+.manage-table-pagenation-container {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manage-table-pagenation {
+  width: 256px;
+  display: flex;
+  align-items: center;
+}
+
+.manage-table-pagenation a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.003em;
+  color: #b8bfc4;
+  margin: 0 16px;
+}
+
+.manage-table-pagenation a:first-child,
+.manage-table-pagenation a:last-child {
+  display: flex;
+  align-items: center;
+}

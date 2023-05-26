@@ -1,0 +1,116 @@
+.popup-mileage-history {
+  width: 785px;
+  min-height: 0;
+  height: 827px;
+  box-sizing: border-box;
+  padding: 63px 29px 30px 29px;
+}
+
+.Popup-title-mileage-history {
+  justify-content: center;
+  margin-bottom: 44px;
+}
+
+.manage-table-mileage-history {
+  width: 727px;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.manage-table-mileage-history thead {
+  height: 41px;
+  background: #f2f4f5;
+  border-top: 1px solid #77808850;
+}
+
+.manage-table-mileage-history tbody tr {
+  height: 59px;
+  border-bottom: 0.5px solid #dfe1e4;
+}
+
+.manage-table-mileage-history thead tr th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #778088;
+  padding: 0;
+}
+
+.manage-table-mileage-history tbody tr td {
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-table-mileage-history tbody tr td:nth-child(3) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #778088;
+}
+
+.manage-table-mileage-history thead tr th:first-child,
+.manage-table-mileage-history tbody tr td:first-child {
+  padding-left: 30px;
+  text-align: left;
+  width: 166px;
+}
+
+.manage-table-mileage-history thead tr th:nth-child(2),
+.manage-table-mileage-history tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 151px;
+}
+
+.manage-table-mileage-history thead tr th:nth-child(3),
+.manage-table-mileage-history tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 142px;
+}
+
+.manage-table-mileage-history thead tr th:nth-child(4),
+.manage-table-mileage-history tbody tr td:nth-child(4) {
+  text-align: center;
+  width: 61px;
+  padding-right: 66px;
+}
+
+.manage-table-mileage-history thead tr th:last-child,
+.manage-table-mileage-history tbody tr td:last-child {
+  text-align: center;
+  width: 61px;
+  padding-right: 50px;
+}
+
+.manage-table-pagenation-container-mileage {
+  margin: 0px;
+}
+
+.manage-table-pagenation-container-mileage div {
+  margin-top: 47px;
+  margin-bottom: 32px;
+}
+
+.mileage-popup-history-close {
+  display: flex;
+  justify-content: center;
+}
+
+.mileage-popup-history-close a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 47px;
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}

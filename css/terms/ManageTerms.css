@@ -1,0 +1,71 @@
+.manage-form-terms {
+  min-height: 55px;
+  height: auto;
+  padding: 20px 20px 19px 20px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.manage-form-terms-close {
+  height: 55px;
+  padding: 14px 20px 13px 20px;
+  box-sizing: border-box;
+}
+
+.manage-form-terms > span:first-child {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #262c31;
+}
+
+.manage-form-terms div:first-child {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Manage-form-textarea-wrap {
+  margin-top: 8px;
+  margin-bottom: 57px;
+}
+
+.Manage-form-textarea {
+  padding: 13px 21px 15px 21px;
+  resize: none;
+  box-sizing: border-box;
+  width: 884px;
+  height: 273px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a636a;
+}
+
+.Manage-form-textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.Manage-form-textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.manage-form-terms div span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #262c31;
+}
+
+.Manage-form-save-terms button {
+  bottom: 19px;
+}

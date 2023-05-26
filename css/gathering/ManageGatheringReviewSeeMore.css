@@ -1,0 +1,132 @@
+.go-back-container-gathering-review-seemore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-gathering-review-seemore div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-gathering-review-seemore div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.manage-form-gathering-review-see-more {
+  padding: 48px 88px 48px 48px;
+  min-height: 823px;
+  height: auto;
+}
+
+.manage-form-gathering-review-see-more > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 34px;
+}
+
+.gathering-review-seemore-detail {
+  margin-bottom: 26px;
+}
+
+.gathering-review-seemore-detail span:first-child {
+  width: 152px;
+}
+
+.gathering-review-seemore-detail:nth-child(3) {
+  align-items: flex-start;
+}
+
+.gathering-review-seemore-detail:last-child {
+  align-items: flex-start;
+}
+
+.Manage-form-view-details-img-gathering-review {
+  display: flex;
+  align-items: flex-end;
+}
+
+.gathering-review-seemore-detail span:nth-child(2) {
+  width: 636px;
+}
+
+.Manage-form-view-details-img-gathering-review div:first-child img {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.Manage-form-view-details-img-gathering-review div:nth-child(2) {
+  border: 1px solid #eef2f3;
+  border-radius: 34px;
+  padding: 6px 10px 7px 13px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 134px;
+  height: 37px;
+}
+
+.gathering-review-detail-img-container img {
+  width: 74px;
+  height: 74px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.gathering-review-contents-container {
+  margin-top: 17px;
+}
+
+.gathering-review-contents-container p {
+  margin: 0px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.408px;
+  color: #222222;
+}
+
+.gathering-review-scope-container {
+  margin-bottom: 7px;
+}
+
+.gathering-review-scope-container img {
+  margin-right: 2px;
+}
+
+.gathering-review-scope-container img:last-child {
+  margin-right: 5px;
+}
+
+.gathering-review-scope-container span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.408px;
+  color: #a3a7aa;
+}

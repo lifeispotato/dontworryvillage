@@ -1,0 +1,126 @@
+.ManageBanner-contents > span {
+  display: block;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 138%;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.manage-form-banner {
+  min-height: 297px;
+  height: auto;
+  padding: 20px;
+}
+
+.manage-form-banner > span:first-child {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #262c31;
+}
+
+.ManageBanner-form-img {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.banner-img-name-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 118px;
+  height: 31px;
+  border: 1px solid #eef2f3;
+  border-radius: 34px;
+}
+
+.banner-img-name-wrap span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #262c31;
+  margin-right: 5px;
+}
+
+.banner-img-name-wrap img {
+  cursor: pointer;
+}
+
+.manage-form-banner span:nth-child(3) {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #b8bfc4;
+}
+
+.ManageBanner-form-link {
+  display: flex;
+  align-items: center;
+}
+
+.ManageBanner-form-link span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #adb4ba;
+  margin-right: 93px;
+}
+
+.ManageBanner-form-link input {
+  width: 366px;
+  height: 48px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.Manage-form-save-banner button {
+  bottom: 20px;
+}
+
+.banner-input-img-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.banner-input-img-container label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.banner-input-img-container input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.banner-input-img-container {
+  display: flex;
+  width: 394px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.banner-input-img-container div {
+  position: relative;
+  margin-right: 13px;
+}

@@ -1,0 +1,101 @@
+.manage-form-notice-see-more-add {
+  padding: 48px 60px 29px 48px;
+  height: 835px;
+}
+
+.manage-form-notice-see-more-add > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.manage-form-notice-see-more-select {
+  width: 366px;
+  padding: 10px 12px 10px 16px;
+  appearance: none;
+  background: url(/public/img/table-togle.svg) right 12px center no-repeat;
+}
+
+.manage-form-notice-see-more-input {
+  width: 366px;
+}
+
+.manage-form-notice-see-more-textarea {
+  width: 664px;
+  height: 197px;
+  resize: none;
+}
+
+.manage-form-notice-see-more-textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.manage-form-notice-see-more-textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.manage-form-save-notice-see-more-add button {
+  right: 27px;
+  bottom: 29px;
+}
+
+.Manage-input-container-postdate {
+  align-items: flex-start;
+}
+
+.Manage-radio-postdate {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.Manage-radio-postdate input label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.408px;
+  color: #717578;
+}
+
+.Manage-radio-postdate input {
+  appearance: none;
+  vertical-align: text-bottom;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #ccd1d7;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.Manage-radio-postdate input:checked {
+  border: 5px solid #36a6e6;
+}
+
+.Manage-date-postdate {
+  display: flex;
+  flex-direction: column;
+}
+
+.Manage-date-postdate input {
+  box-sizing: border-box;
+  width: 366px;
+  height: 48px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.Manage-date-postdate input:first-child {
+  margin-bottom: 10px;
+}
+
+.Manage-date-postdate input:first-child[type="date"] {
+  background: url(/public/img/calendar.svg) right 10px center no-repeat;
+}

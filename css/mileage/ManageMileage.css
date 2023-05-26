@@ -1,0 +1,214 @@
+.Manage-mileage-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.Manage-mileage-search-number span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #adb4ba;
+}
+
+.Manage-mileage-search-number span:nth-child(2) {
+  margin-left: 7px;
+  color: #262c31;
+}
+
+.Manage-mileage-search {
+  display: flex;
+}
+
+.Manage-mileage-search div:first-child {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 244px;
+  height: 36px;
+  background: #f2f4f5;
+  border-radius: 18px;
+}
+
+.Manage-mileage-search div {
+  background: #262c31;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 8px;
+}
+
+.Manage-mileage-search div:nth-child(2) {
+  width: 198px;
+}
+
+.Manage-mileage-search div:nth-child(3) {
+  width: 201px;
+}
+
+.Manage-mileage-search div:last-child {
+  width: 131px;
+}
+
+.Manage-mileage-search img {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.Manage-mileage-search span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.Manage-mileage-search div:first-child span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b8bfc4;
+}
+
+.Manage-mileage-search div:first-child img {
+  width: 16px;
+  height: 16px;
+}
+
+.manage-table-mileage table thead tr,
+.manage-table-mileage table tbody tr {
+  box-sizing: border-box;
+}
+
+.manage-table-mileage table tbody tr td {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #778088;
+}
+
+.manage-table-mileage table thead tr th:first-child,
+.manage-table-mileage table tbody tr td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  width: 49px;
+}
+
+.manage-table-mileage table tbody tr td:first-child input {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #636c73;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.manage-table-mileage table tbody tr td:first-child input:checked {
+  border: 1.5px solid #36a6e6;
+  background-color: #36a6e6;
+  background-image: url("/public/img/check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.manage-table-mileage table thead tr th:nth-child(2),
+.manage-table-mileage table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 103px;
+}
+
+.manage-table-mileage table tbody tr td:nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-table-mileage table thead tr th:nth-child(3),
+.manage-table-mileage table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 240px;
+  padding-right: 52px;
+}
+
+.manage-table-mileage table tbody tr td:nth-child(3) span {
+  display: block;
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-table-mileage table thead tr th:nth-child(4),
+.manage-table-mileage table tbody tr td:nth-child(4) {
+  text-align: right;
+  width: 54px;
+}
+
+.manage-table-mileage table thead tr th:nth-child(5),
+.manage-table-mileage table tbody tr td:nth-child(5) {
+  text-align: right;
+  width: 138px;
+  padding-right: 63px;
+}
+
+.manage-table-mileage table thead tr th:nth-child(6),
+.manage-table-mileage table tbody tr td:nth-child(6) {
+  text-align: left;
+  width: 121px;
+}
+
+.manage-table-mileage table tbody tr td:nth-child(6) {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  color: #778088;
+}
+
+.manage-table-mileage table thead tr th:nth-child(7),
+.manage-table-mileage table tbody tr td:nth-child(7) {
+  text-align: left;
+  width: 118px;
+}
+
+.manage-table-mileage table thead tr th:last-child,
+.manage-table-mileage table tbody tr td:last-child {
+  text-align: center;
+  width: 57px;
+  padding-right: 28px;
+}
+
+.manage-table-mileage table tbody tr td:last-child a {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 29px;
+  text-align: center;
+  background-color: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.manage-table-mileage table tbody tr td:last-child a img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

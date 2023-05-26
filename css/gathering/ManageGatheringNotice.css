@@ -1,0 +1,224 @@
+.go-back-container-gathering-notice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-gathering-notice div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-gathering-notice div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.gathering-notice-menu-container {
+  width: 1090px;
+  height: 43px;
+  border-bottom: 1px solid #f2f4f5;
+  margin-top: 42px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+.gathering-notice-menu-container a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.003em;
+  color: #808991;
+  display: inline-block;
+  width: 139px;
+  height: 43px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gathering-notice-menu-container a:hover {
+  color: #3ac8f5;
+  border-bottom: 2px solid #3ac8f5;
+}
+
+.manage-form-gathering-notice {
+  position: relative;
+  height: 1043px;
+}
+
+.gathering-notice-add-container {
+  display: flex;
+  width: 1043px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gathering-notice-number span:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #adb4ba;
+  margin-right: 7px;
+}
+
+.gathering-notice-number span:nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #262c31;
+}
+
+.gathering-notice-add-btn a {
+  background: #262c31;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 7px 18px 6px 15px;
+}
+
+.gathering-notice-add-btn a img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.gathering-notice-add-btn a span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.manage-form-gathering-notice > div {
+  margin-bottom: 30px;
+}
+
+.gathering-notice-table {
+  width: 1043px;
+  box-sizing: border-box;
+  border-top: 0.5px solid #77808850;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.gathering-notice-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.gathering-notice-table tbody tr {
+  box-sizing: border-box;
+  height: 59px;
+  border-bottom: 0.5px solid #dfe1e450;
+}
+
+.gathering-notice-table thead tr th,
+.gathering-notice-table tbody tr td {
+  padding: 0;
+}
+
+.gathering-notice-table thead tr th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #778088;
+}
+
+.gathering-notice-table tbody tr td {
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.gathering-notice-table thead tr th:first-child,
+.gathering-notice-table tbody tr td:first-child {
+  padding-left: 20px;
+  text-align: left;
+  width: 95px;
+}
+
+.gathering-notice-table thead tr th:nth-child(2),
+.gathering-notice-table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 448px;
+}
+
+.gathering-notice-table tbody tr td:nth-child(2) span {
+  display: block;
+  width: 386px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.gathering-notice-table thead tr th:nth-child(3),
+.gathering-notice-table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 181px;
+}
+
+.gathering-notice-table thead tr th:nth-child(4),
+.gathering-notice-table tbody tr td:nth-child(4) {
+  text-align: left;
+  width: 129px;
+}
+
+.gathering-notice-table thead tr th:nth-child(5),
+.gathering-notice-table tbody tr td:nth-child(5) {
+  text-align: center;
+  padding-right: 48px;
+  width: 37px;
+}
+
+.gathering-notice-table thead tr th:last-child,
+.gathering-notice-table tbody tr td:last-child {
+  text-align: center;
+  padding-right: 28px;
+  width: 57px;
+}
+
+.gathering-notice-table tbody tr td:last-child a {
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 29px;
+  /* padding: 3px 8px; */
+}
+
+.gathering-notice-table tbody tr td:last-child img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

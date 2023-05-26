@@ -1,0 +1,134 @@
+.go-back-container-program-seemore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.manage-form-program-see-more {
+  position: relative;
+  padding: 48px 27px 30px 48px;
+  height: 844px;
+}
+
+.manage-form-program-see-more > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 41px;
+}
+
+.Manage-input-container-program-seemore {
+  margin-bottom: 8px;
+}
+
+.Manage-input-container-program-seemore-img {
+  margin-top: 15px;
+}
+
+.Manage-input-container-program-seemore span,
+.Manage-input-container-program-seemore-img span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+  width: 152px;
+}
+
+.manage-form-program-add-input {
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.manage-form-program-add-input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.Manage-input-container-program-seemore textarea {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #5a636a;
+  width: 593px;
+  height: 198px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  padding-top: 13px;
+  padding-left: 16px;
+  resize: none;
+}
+
+.Manage-input-container-program-seemore textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.Manage-input-container-program-seemore textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.Manage-input-container-program-seemore textarea::placeholder {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.manage-form-program-add-input-img label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 8px;
+}
+
+.manage-form-program-add-input-img label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.manage-form-program-add-input-img input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.Manage-input-container-program-seemore:nth-of-type(4) {
+  display: flex;
+  align-items: flex-start;
+}
+
+.manage-form-save-program-add button {
+  position: absolute;
+  bottom: 27px;
+}

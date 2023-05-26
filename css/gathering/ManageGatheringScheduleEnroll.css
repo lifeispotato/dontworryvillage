@@ -1,0 +1,351 @@
+.go-back-container-gathering-schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.manage-form-gathering-schedule-add {
+  position: relative;
+  padding: 48px 53px 97px 43px;
+  min-height: 853px;
+  height: auto;
+  background: #f7f7f7;
+  border: 1px solid #dfe1e4;
+  border-radius: 8px;
+}
+
+.Manage-input-title-schedule {
+  width: 120px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+  margin: 0;
+}
+
+.manage-form-gathering-schedule-add > div:first-of-type {
+  width: 828px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.manage-form-gathering-schedule-add div:first-child span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+}
+
+.gathering-period-schedule {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gathering-period-schedule input {
+  width: 285px;
+  height: 48px;
+  background-color: #ffffff;
+  border: 1px solid #dfe1e4;
+  border-radius: 8px;
+}
+
+.gathering-period-schedule input:first-child {
+  margin-bottom: 0px;
+}
+
+.gathering-period-schedule input:last-child[type="date"] {
+  background: url(/public/img/calendar.svg) right 10px center no-repeat;
+}
+
+.gathering-period-schedule input[type="date"]::before {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.gathering-period-schedule span {
+  margin: 0 12px;
+}
+
+.gathering-period-schedule > div {
+  background-color: #ffffff;
+}
+
+.gathering-period-schedule a {
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: -0.003em;
+  padding: 13px 26px;
+  margin-left: 15px;
+}
+
+.save-gathering-schedule-enroll button {
+  position: absolute;
+  right: 53px;
+  bottom: 30px;
+}
+
+.schedule-date {
+  background: rgba(34, 107, 131, 0.2);
+  border: 1px solid #c5ccce;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 6px 16px;
+}
+
+.schedule-date span {
+  font-weight: 700;
+  opacity: 1;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+}
+
+.schedule-enroll-add-btn {
+  margin: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.schedule-enroll-add-btn span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #3ac8f5;
+}
+
+.schedule-enroll-add-btn a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #262c31;
+  padding: 3px 8px;
+  background: #ffffff;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 8px;
+}
+
+.schedule-enroll-information {
+  width: 828px;
+  height: 612px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.schedule-enroll-information .Manage-input-container {
+  margin-bottom: 20px;
+}
+
+.schedule-enroll-information .Manage-input-container input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.Manage-time-schedule {
+  display: flex;
+  align-items: center;
+}
+
+.Manage-time-schedule input {
+  box-sizing: border-box;
+  width: 285px;
+  height: 48px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.Manage-time-schedule input[type="time"] {
+  background: url("/public/img/clock.svg") right 10px center no-repeat;
+}
+
+.Manage-time-schedule input[type="time"]::before {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.manage-input-container-detail {
+  align-items: flex-start;
+}
+
+.Manage-input-textarea-detail {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #5a636a;
+  width: 593px;
+  height: 198px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  padding-top: 13px;
+  padding-left: 16px;
+  resize: none;
+}
+
+.Manage-input-textarea-detail::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.Manage-input-textarea-detail::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.Manage-input-textarea-detail::placeholder {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.schedule-info-img {
+  display: flex;
+  align-items: center;
+}
+
+.schedule-info-img label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.schedule-info-img label img {
+  width: 23px;
+  height: 18px;
+  margin: 5px;
+}
+
+.schedule-info-img label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.schedule-info-img input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.schedule-info-img-list {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+.schedule-info-img-list img:nth-child(2) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.schedule-enroll-information-program {
+  position: relative;
+  margin-top: 16px;
+}
+
+.manage-form-schedule-enroll-select {
+  width: 366px;
+  padding: 10px 12px 10px 16px;
+  appearance: none;
+  background: url(/public/img/table-togle.svg) right 12px center no-repeat;
+}
+
+.manage-form-schedule-enroll-select + a {
+  height: 29px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #262c31;
+  display: block;
+  box-sizing: border-box;
+  padding: 3px 8px;
+  background: #ffffff;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.add-program-del-btn a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+  display: block;
+  box-sizing: border-box;
+  padding: 3px 20px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.schedule-eroll-container {
+  margin-top: 36px;
+}
+
+.schedule-eroll-container-first {
+  margin-top: 31px;
+}

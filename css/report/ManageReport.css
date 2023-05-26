@@ -1,0 +1,180 @@
+.Manage-report-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.Manage-report-search-number span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #adb4ba;
+}
+
+.Manage-report-search-number span:nth-child(2) {
+  margin-left: 7px;
+  color: #262c31;
+}
+
+.Manage-report-search {
+  display: flex;
+}
+
+.Manage-report-search div:first-child {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 244px;
+  height: 36px;
+  background: #f2f4f5;
+  border-radius: 18px;
+}
+
+.Manage-report-search div:first-child span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b8bfc4;
+}
+
+.Manage-report-search div:first-child img {
+  width: 16px;
+  height: 16px;
+}
+
+.Manage-report-search div:nth-child(2) {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99px;
+  height: 36px;
+  padding: 7px 16px 6px 14px;
+  background: #262c31;
+  border-radius: 18px;
+  margin-left: 16px;
+}
+
+.Manage-report-search div:nth-child(2) img {
+  width: 12px;
+  height: 12px;
+}
+
+.Manage-report-search div:nth-child(2) span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.manage-table-report table thead tr,
+.manage-table-report table tbody tr {
+  box-sizing: border-box;
+}
+
+.manage-table-report table tbody tr td {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-table-report table thead tr th:first-child,
+.manage-table-report table tbody tr td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  width: 103px;
+}
+
+.manage-table-report table thead tr th:nth-child(2),
+.manage-table-report table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 211px;
+}
+
+.manage-table-report table thead tr th:nth-child(3),
+.manage-table-report table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 229px;
+}
+
+.manage-table-report table tbody tr td:nth-child(3) {
+  display: inline-block;
+  line-height: 59px;
+  vertical-align: middle;
+  width: 208px;
+  /* padding-right: 21px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.manage-table-report table thead tr th:nth-child(4),
+.manage-table-report table tbody tr td:nth-child(4) {
+  text-align: left;
+  width: 181px;
+}
+
+.manage-table-report table thead tr th:nth-child(5),
+.manage-table-report table tbody tr td:nth-child(5) {
+  text-align: left;
+  width: 156px;
+}
+
+.manage-table-report table thead tr th:nth-child(6),
+.manage-table-report table tbody tr td:nth-child(6) {
+  text-align: center;
+  width: 41px;
+  padding-right: 17px;
+}
+
+.manage-table-report table tbody tr td:nth-child(6) a {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 41px;
+  height: 29px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ef594b;
+}
+
+.manage-table-report table thead tr th:last-child,
+.manage-table-report table tbody tr td:last-child {
+  text-align: center;
+  width: 57px;
+  padding-right: 28px;
+}
+
+.manage-table-report table tbody tr td:last-child a {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 29px;
+  text-align: center;
+  background-color: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.manage-table-report table tbody tr td:last-child a img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

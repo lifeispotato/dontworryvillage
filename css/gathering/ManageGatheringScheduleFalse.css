@@ -1,0 +1,103 @@
+.go-back-container-gathering-schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-gathering-schedule div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-gathering-schedule div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.gathering-schedule-menu-container {
+  width: 924px;
+  height: 43px;
+  border-bottom: 1px solid #f2f4f5;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  box-sizing: border-box;
+}
+
+.gathering-schedule-menu-container a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.003em;
+  color: #808991;
+  display: inline-block;
+  width: 139px;
+  height: 43px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gathering-schedule-menu-container a:hover {
+  color: #3ac8f5;
+  border-bottom: 2px solid #3ac8f5;
+}
+
+.manage-form-gathering-schedule {
+  position: relative;
+  padding: 50px 48px 50px 48px;
+  height: 734px;
+}
+
+.manage-form-gathering-schedule > div {
+  margin-bottom: 30px;
+}
+
+.manage-form-gathering-schedule > div:first-child {
+  width: 828px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.manage-form-gathering-schedule > div:first-child > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+}
+
+.manage-form-gathering-schedule div:first-child a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #262c31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

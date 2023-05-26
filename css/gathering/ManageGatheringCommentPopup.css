@@ -1,0 +1,48 @@
+.gathering-comment-popup-title span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.007em;
+  color: #25282b;
+}
+
+.gathering-comment-popup-title a {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ef594b;
+}
+
+.gathering-comment-popup-middle .Manage-form-view-details span:nth-child(2) {
+  width: 479px;
+}
+
+.gathering-comment-popup-close {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  width: 65px;
+  height: 47px;
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gathering-comment-popup-close span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}

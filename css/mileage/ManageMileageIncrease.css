@@ -1,0 +1,105 @@
+.popup-mileage {
+  width: 785px;
+  min-height: 0;
+  height: 492px;
+  box-sizing: border-box;
+}
+
+.mileage-popup-close-container {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+}
+
+.mileage-popup-close {
+  display: flex;
+  box-sizing: border-box;
+  width: 65px;
+  height: 47px;
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.mileage-popup-close span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.mileage-popup-setup {
+  display: flex;
+  box-sizing: border-box;
+  width: 89px;
+  height: 47px;
+  background: #36a6e6;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mileage-popup-setup span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.Manage-input-mileage div {
+  margin-bottom: 20px;
+}
+
+.Manage-input-mileage div input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.Manage-form-view-details-explanation {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* .Manage-form-view-details-explanation span {
+  width: 152px;
+} */
+
+.Manage-form-view-details-explanation div {
+  width: 366px;
+}
+
+.point-expiration-container {
+  position: relative;
+  margin-bottom: 0px !important;
+}
+
+.point-expiration-annotation {
+  display: block;
+  margin-top: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+  width: 226px;
+}
+
+.point-expiration-container span {
+  position: absolute;
+  width: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 65px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #25282b;
+}

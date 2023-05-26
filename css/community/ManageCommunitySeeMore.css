@@ -1,0 +1,262 @@
+.go-back-container-community-seemore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-community-seemore div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-community-seemore div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.manage-form-community-see-more {
+  padding: 48px 48px 48px 99px;
+  height: auto;
+}
+
+.manage-form-community-see-more-comment {
+  padding: 50px 48px;
+  height: auto;
+}
+
+.Manage-contents .manage-form-community-see-more {
+  margin-bottom: 28px;
+}
+
+.manage-form-community-see-more div {
+  margin-bottom: 26px;
+}
+
+.manage-form-community-see-more > span,
+.manage-form-community-see-more-comment > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 29px;
+}
+
+.Manage-form-view-details img {
+  display: inline-block;
+}
+
+.Manage-form-view-details-lastchild {
+  margin-bottom: 0;
+}
+
+.Manage-form-view-details-flexstart {
+  align-items: flex-start;
+}
+
+.manage-form-community-see-more-comment table {
+  width: 828px;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.manage-form-community-see-more-comment table thead {
+  background: #f2f4f5;
+  border-top: 0.5px solid #77808850;
+  height: 41px;
+}
+
+.manage-form-community-see-more-comment table thead tr th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #778088;
+}
+
+.manage-form-community-see-more-comment table tbody tr {
+  box-sizing: border-box;
+  height: 59px;
+  border-bottom: 0.5px solid #dfe1e450;
+}
+
+.manage-form-community-see-more-comment table tbody tr td {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-form-community-see-more-comment table thead tr th,
+.manage-form-community-see-more-comment table tbody tr td {
+  padding: 0;
+}
+
+.manage-form-community-see-more-comment table thead tr th:first-child,
+.manage-form-community-see-more-comment table tbody tr td:first-child {
+  padding-left: 30px;
+  text-align: left;
+  width: 164px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:first-child span {
+  display: block;
+  width: 132px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.manage-form-community-see-more-comment table thead tr th:nth-child(2),
+.manage-form-community-see-more-comment table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 91px;
+}
+
+.manage-form-community-see-more-comment table thead tr th:nth-child(3),
+.manage-form-community-see-more-comment table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 131px;
+}
+
+.manage-form-community-see-more-comment table thead tr th:nth-child(4),
+.manage-form-community-see-more-comment table tbody tr td:nth-child(4) {
+  text-align: left;
+  width: 238px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:nth-child(4) span {
+  display: block;
+  width: 216px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.manage-form-community-see-more-comment table thead tr th:nth-child(5),
+.manage-form-community-see-more-comment table tbody tr td:nth-child(5) {
+  text-align: center;
+  width: 63px;
+  padding-right: 23px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:nth-child(5) a {
+  display: flex;
+  height: 59px;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:nth-child(5) span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #262c31;
+  margin-right: 10px;
+}
+
+.manage-form-community-see-more-comment table thead tr th:last-child,
+.manage-form-community-see-more-comment table tbody tr td:last-child {
+  text-align: center;
+  width: 57px;
+  padding-right: 31px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:last-child {
+  height: 59px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:last-child a {
+  display: flex;
+  width: 59px;
+  height: 29px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:last-child a img {
+  margin-right: 4px;
+}
+
+.manage-form-community-see-more-comment table tbody tr td:last-child span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Seemore-popup-title span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.007em;
+  color: #25282b;
+}
+
+.Seemore-popup-title a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ef594b;
+}
+
+.Seemore-popup-middle .Manage-form-view-details span:nth-child(2) {
+  width: 479px;
+}
+
+.Seemore-popup-close {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  width: 65px;
+  height: 47px;
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Seemore-popup-close span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}

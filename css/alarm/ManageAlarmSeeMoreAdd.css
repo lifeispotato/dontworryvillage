@@ -1,0 +1,71 @@
+.manage-form-alarm-see-more-add {
+  padding: 48px 60px 27px 48px;
+  box-sizing: border-box;
+  width: 924px;
+  height: 642px;
+}
+
+.manage-form-alarm-see-more-add > span:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 21px;
+}
+
+.Manage-radio-postdate-alarm {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.Manage-radio-postdate-alarm div {
+  margin-right: 30px;
+}
+
+.Manage-radio-postdate-alarm input label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.408px;
+  color: #717578;
+}
+
+.Manage-radio-postdate-alarm input {
+  appearance: none;
+  vertical-align: text-bottom;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #ccd1d7;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.manage-form-save-alarm-see-more-add button {
+  bottom: 27px;
+  right: 27px;
+}
+
+.Manage-radio-postdate-alarm input:checked {
+  border: 5px solid #36a6e6;
+}
+
+.manage-form-alarm-see-more-textarea {
+  width: 664px;
+  height: 197px;
+  resize: none;
+}
+
+.manage-form-alarm-see-more-textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.manage-form-alarm-see-more-textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}

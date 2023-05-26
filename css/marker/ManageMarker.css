@@ -1,0 +1,157 @@
+.ManageMarker-contents > span {
+  display: block;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 138%;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.manage-form-marker {
+  height: 297px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.ManageMarker-form-title {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #262c31;
+  margin-bottom: 22px;
+}
+
+.ManageMarker-form-basic > span,
+.ManageMarker-form-select > span {
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.ManageMarker-form-img {
+  display: flex;
+  align-items: center;
+}
+
+.ManageMarker-form-basic-img,
+.ManageMarker-form-select-img {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 9px;
+}
+
+.ManageMarker-form-basic-img div:first-child,
+.ManageMarker-form-select-img div:first-child {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 4px;
+  margin-right: 11px;
+}
+
+.ManageMarker-form-basic-img div:nth-child(2),
+.ManageMarker-form-select-img div:nth-child(2) {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+.ManageMarker-form-basic-img div span,
+.ManageMarker-form-select-img div span {
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+  margin-top: 6px;
+}
+
+.ManageMarker-form-basic-img div:nth-child(2) img,
+.ManageMarker-form-select-img div:nth-child(2) img {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.ManageMarker-form-basic span:nth-child(3),
+.ManageMarker-form-select span:nth-child(3) {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #b8bfc4;
+}
+
+.Manage-form-save-marker button {
+  bottom: 20px;
+}
+
+.marker-input-img-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.marker-input-img-container label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.marker-input-img-container input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.marker-input-img-container {
+  display: flex;
+  width: 394px;
+  flex-wrap: wrap;
+}
+
+.marker-input-img-container div {
+  position: relative;
+  margin-right: 13px;
+}
+
+.marker-input-img-container div img:nth-child(2) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.marker-img img:nth-child(2) {
+  cursor: pointer;
+}

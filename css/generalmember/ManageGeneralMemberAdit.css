@@ -1,0 +1,239 @@
+.go-back-container-general-member-adit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.manage-form-general-member-adit {
+  position: relative;
+  padding: 48px 60px 39px 48px;
+  min-height: 1118px;
+  height: auto;
+}
+
+.manage-form-general-member-adit > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.manage-form-general-member-adit > span:first-child {
+  margin-bottom: 24px;
+}
+
+.Manage-input-container-general-member-adit {
+  margin-bottom: 28px;
+}
+
+.Manage-input-container-general-member-adit:nth-of-type(4) {
+  margin-bottom: 15px;
+}
+
+.Manage-input-container-general-member-adit input,
+.general-member-adit-dirth > div {
+  width: 366px;
+}
+
+.general-member-adit-dirth > div {
+  display: flex;
+  align-items: center;
+}
+
+.general-member-adit-dirth > div img {
+  margin: 0px 7px;
+}
+
+.general-member-adit-dirth > div input {
+  width: 172px;
+}
+
+.Manage-input-container-general-member-adit input:disabled {
+  background: #eef2f3;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.Manage-input-container-general-member-adit span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+  width: 152px;
+}
+
+.manage-form-general-member-adit-input {
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.manage-form-general-member-adit-input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.Manage-input-container-general-member-adit textarea {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #5a636a;
+  width: 664px;
+  height: 197px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  padding-top: 13px;
+  padding-left: 16px;
+  resize: none;
+}
+
+.Manage-input-container-general-member-adit textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.Manage-input-container-general-member-adit textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.Manage-input-container-general-member-adit textarea::placeholder {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.general-member-detail-gender {
+  margin-bottom: 28px;
+}
+
+.manage-form-general-member-img-container {
+  margin-right: 13px;
+}
+
+.manage-form-save-general-member-adit button {
+  position: absolute;
+  right: 27px;
+  bottom: 36px;
+}
+
+.Manage-input-recruit-number::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.Manage-input-textarea-general-member {
+  padding: 13px 0 13px 16px;
+  box-sizing: border-box;
+  width: 336px;
+  height: 48px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.general-member-img-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.general-member-img-container div {
+  display: flex;
+}
+
+.general-member-img-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 13px;
+}
+
+.general-member-img-container label img {
+  width: 23px;
+  height: 18px;
+  margin: 5px;
+}
+
+.general-member-img-container label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.general-member-img-container input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.manage-form-general-member-img-container {
+  position: relative;
+}
+
+.manage-form-general-member-img-container img:last-child {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.general-member-agreement-checkbox {
+  align-items: flex-start;
+}
+
+.general-member-agreement-checkbox:last-of-type {
+  margin-bottom: 0px;
+}
+
+.seemore-consent-checkbox {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+  margin-bottom: 18px;
+}
+
+.general-member-agreement-checkbox
+  > div
+  .seemore-consent-checkbox:last-of-type {
+  margin-bottom: 0px;
+}

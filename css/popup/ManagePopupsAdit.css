@@ -1,0 +1,130 @@
+.manage-form-popup-adit {
+  min-height: 835px;
+  height: auto;
+  padding: 48px 27px 29px 48px;
+}
+
+.manage-form-popup-adit span:first-child {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.Manage-img-container {
+  display: flex;
+  margin-bottom: 21px;
+}
+
+.Manage-popup-img {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.Manage-img-container div > span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #b8bfc4;
+}
+
+.Manage-popup-img div:first-child {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 4px;
+  margin-right: 11px;
+}
+
+.Manage-popup-img div:nth-child(2) {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+.Manage-popup-img div span {
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+  margin-top: 6px;
+}
+
+.Manage-popup-img div:nth-child(2) img {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.notice-input-img-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-right: 13px;
+}
+
+.notice-input-img-container label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.notice-input-img-container input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.notice-input-img-container {
+  display: flex;
+  width: 664px;
+  flex-wrap: wrap;
+}
+
+.notice-input-img-container div {
+  position: relative;
+  margin-right: 13px;
+}
+
+.notice-input-img-container div img:nth-child(2) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.notice-img img:nth-child(2) {
+  cursor: pointer;
+}

@@ -1,0 +1,219 @@
+.go-back-container-gathering-notice-adit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.manage-form-gathering-notice-see-more {
+  position: relative;
+  padding: 48px 27px 30px 48px;
+  min-height: 835px;
+  height: auto;
+}
+
+.manage-form-gathering-notice-see-more > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 41px;
+}
+
+.gathering-notice-adit-input-container {
+  margin-bottom: 20px;
+}
+
+.gathering-notice-adit-input-container span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+  width: 152px;
+}
+
+.manage-form-gathering-notice-add-input {
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.manage-form-gathering-notice-add-input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.gathering-notice-adit-input-container:nth-of-type(2) {
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.gathering-notice-adit-input-container textarea {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #5a636a;
+  width: 664px;
+  height: 197px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-top: 13px;
+  padding-left: 16px;
+  resize: none;
+}
+
+.gathering-notice-adit-input-container textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.gathering-notice-adit-input-container textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.gathering-notice-adit-input-container textarea::placeholder {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #adb4ba;
+}
+
+.gathering-notice-add-input-img-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-right: 13px;
+}
+
+.gathering-notice-add-input-img-container label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.gathering-notice-add-input-img-container input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.gathering-notice-adit-input-container:nth-of-type(3),
+.gathering-notice-adit-input-container:nth-of-type(4) {
+  display: flex;
+  align-items: flex-start;
+}
+
+.manage-form-save-gathering-notice-add button {
+  position: absolute;
+  bottom: 27px;
+}
+
+.gathering-notice-add-input-img-container {
+  display: flex;
+  width: 664px;
+  flex-wrap: wrap;
+}
+
+.gathering-notice-add-input-img-container div {
+  position: relative;
+  margin-right: 13px;
+}
+
+.gathering-notice-add-input-img-container div img:nth-child(2) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.gathering-notice-add-input-file-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed #ccced9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-right: 13px;
+}
+
+.gathering-notice-add-input-file-container label span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #778088;
+}
+
+.gathering-notice-add-input-file-container input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.gathering-notice-add-input-file-container {
+  display: flex;
+  align-items: flex-end;
+  width: 664px;
+  flex-wrap: wrap;
+}
+
+.gathering-notice-filename {
+  display: flex;
+  align-items: center;
+  width: 118px;
+  height: 31px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  padding: 6px 6px 6px 9px;
+  border: 1px solid #eef2f3;
+  border-radius: 34px;
+}
+
+.gathering-notice-filename span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #262c31;
+}
+
+.gathering-notice-filename img {
+  width: 16px;
+  height: 16px;
+}

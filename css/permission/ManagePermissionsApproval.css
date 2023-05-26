@@ -1,0 +1,104 @@
+.manage-form-approval {
+  height: 835px;
+  padding: 48px 28px 28px 48px;
+}
+
+.manage-form-save-approval button {
+  bottom: 29px;
+}
+
+.manage-permissions-approval-section {
+  position: absolute;
+  top: 116px;
+  left: 26%;
+}
+
+.manage-form-perapproval {
+  height: 877px;
+  padding: 48px 27px 29px 48px;
+}
+
+.manage-permissions-approval-form > p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #262c31;
+  margin-bottom: 18px;
+}
+
+.manage-permissions-approval {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.manage-permissions-approval-title {
+  width: 152px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #adb4ba;
+}
+
+.manage-permissions-approval-input {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 336px;
+  height: 48px;
+  border: 1px solid #d7dbe0;
+  border-radius: 4px;
+}
+
+.manage-permissions-approval-radio {
+  display: flex;
+  align-items: flex-start;
+}
+
+.manage-permissions-approval-radio form input {
+  appearance: none;
+  vertical-align: text-bottom;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #ccd1d7;
+  border-radius: 50%;
+  margin: 0 6px 0 0;
+}
+
+.manage-permissions-approval-radio form input:checked {
+  border: 5px solid #36a6e6;
+}
+
+.manage-permissions-approval-radio form label {
+  margin-right: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #262c31;
+}
+
+.manage-permissions-approval-radio div span {
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 41px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #a4856a;
+}
+
+.manage-permissions-approval-access-right div > span {
+  margin-top: 0px;
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #262c31;
+}
+
+.manage-permissions-approval-access-right-container div form {
+  margin-bottom: 22px;
+}
+
+.manage-form-save-perapproval button {
+  bottom: 30px;
+}

@@ -1,0 +1,53 @@
+.manage-form-notice-see-more-adit {
+  padding: 48px 60px 29px 48px;
+  height: 835px;
+}
+
+.manage-form-notice-see-more-adit > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.manage-form-notice-see-more-select {
+  width: 366px;
+  padding: 10px 12px 10px 16px;
+  appearance: none;
+  background: url(/public/img/table-togle.svg) right 12px center no-repeat;
+}
+
+.manage-form-notice-see-more-input {
+  width: 366px;
+}
+
+.manage-form-notice-see-more-textarea {
+  width: 664px;
+  height: 197px;
+  resize: none;
+}
+
+.manage-form-notice-see-more-textarea::-webkit-scrollbar {
+  width: 13px;
+  background-color: #ffffff00;
+}
+
+.manage-form-notice-see-more-textarea::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #adb4ba;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.Manage-input-container-maintext {
+  align-items: flex-start;
+}
+
+.manage-form-save-notice-see-more-adit button {
+  right: 27px;
+  bottom: 29px;
+}

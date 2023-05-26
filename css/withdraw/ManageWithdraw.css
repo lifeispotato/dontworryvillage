@@ -1,0 +1,169 @@
+.Manage-withdraw-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.Manage-withdraw-search-number span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #adb4ba;
+}
+
+.Manage-withdraw-search-number span:nth-child(2) {
+  margin-left: 7px;
+  color: #262c31;
+}
+
+.Manage-withdraw-search {
+  display: flex;
+}
+
+.Manage-withdraw-search div:first-child {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 244px;
+  height: 36px;
+  background: #f2f4f5;
+  border-radius: 18px;
+}
+
+.Manage-withdraw-search div:first-child span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b8bfc4;
+}
+
+.Manage-withdraw-search div:first-child img {
+  width: 16px;
+  height: 16px;
+}
+
+.Manage-withdraw-search div:nth-child(2) {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 36px;
+  padding: 7px 10px 6px 13px;
+  background: #262c31;
+  border-radius: 18px;
+  margin-left: 16px;
+}
+
+.Manage-withdraw-search div:nth-child(2) img {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.Manage-withdraw-search div:nth-child(2) span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.manage-table-withdraw table thead tr,
+.manage-table-withdraw table tbody tr {
+  box-sizing: border-box;
+}
+
+.manage-table-withdraw table thead tr th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #778088;
+}
+
+.manage-table-withdraw table tbody tr td {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-table-withdraw table thead tr th:first-child,
+.manage-table-withdraw table tbody tr td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  width: 69px;
+}
+
+.manage-table-withdraw table tbody tr td:first-child input {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #636c73;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.manage-table-withdraw table tbody tr td:first-child input:checked {
+  border: 1.5px solid #36a6e6;
+  background-color: #36a6e6;
+  background-image: url("/public/img/check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.manage-table-withdraw table thead tr th:nth-child(2),
+.manage-table-withdraw table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 107px;
+}
+
+.manage-table-withdraw table thead tr th:nth-child(3),
+.manage-table-withdraw table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 119px;
+}
+
+.manage-table-withdraw table thead tr th:nth-child(4),
+.manage-table-withdraw table tbody tr td:nth-child(4) {
+  text-align: left;
+  width: 459px;
+}
+
+.manage-table-withdraw table thead tr th:nth-child(5),
+.manage-table-withdraw table tbody tr td:nth-child(5) {
+  text-align: left;
+  width: 160px;
+}
+
+.manage-table-withdraw table thead tr th:last-child,
+.manage-table-withdraw table tbody tr td:last-child {
+  text-align: center;
+  width: 65px;
+  padding-right: 44px;
+}
+
+.manage-table-withdraw table tbody tr td:last-child a {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 29px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ef594b;
+}
+
+.manage-table-withdraw table tbody tr td:last-child a img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

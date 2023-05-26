@@ -1,0 +1,205 @@
+.go-back-container-gathering-inquiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 924px;
+  box-sizing: border-box;
+}
+
+.go-back-container-gathering-inquiry div:nth-child(2) {
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.go-back-container-gathering-inquiry div:nth-child(2) a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  width: 65px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid #ef594b;
+  border-radius: 4px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #ef594b;
+}
+
+.gathering-inquiry-menu-container {
+  width: 924px;
+  height: 43px;
+  border-bottom: 1px solid #f2f4f5;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  box-sizing: border-box;
+}
+
+.gathering-inquiry-menu-container a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.003em;
+  color: #808991;
+  display: inline-block;
+  width: 139px;
+  height: 43px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gathering-inquiry-menu-container a:hover {
+  color: #3ac8f5;
+  border-bottom: 2px solid #3ac8f5;
+}
+
+.manage-form-gathering-inquiry {
+  position: relative;
+  padding: 50px 48px 50px 48px;
+  height: 734px;
+}
+
+.gathering-inquiry-title > span:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.003em;
+  color: #262c31;
+  padding-right: 10px;
+}
+
+.gathering-inquiry-title > span:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.003em;
+  color: #636c73;
+}
+
+.manage-form-gathering-inquiry > div {
+  margin-bottom: 30px;
+}
+
+.gathering-inquiry-title {
+  display: flex;
+  align-items: center;
+}
+
+.gathering-inquiry-table {
+  width: 828px;
+  box-sizing: border-box;
+  border-top: 0.5px solid #77808850;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.gathering-inquiry-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.gathering-inquiry-table tbody tr {
+  box-sizing: border-box;
+  height: 59px;
+  border-bottom: 0.5px solid #dfe1e450;
+}
+
+.gathering-inquiry-table thead tr th,
+.gathering-inquiry-table tbody tr td {
+  padding: 0;
+}
+
+.gathering-inquiry-table thead tr th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #778088;
+}
+
+.gathering-inquiry-table tbody tr td {
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #636c73;
+}
+
+.gathering-inquiry-table thead tr th:first-child,
+.gathering-inquiry-table tbody tr td:first-child {
+  padding-left: 30px;
+  text-align: left;
+  width: 171px;
+}
+
+.gathering-inquiry-table thead tr th:nth-child(2),
+.gathering-inquiry-table tbody tr td:nth-child(2) {
+  text-align: left;
+  width: 177px;
+}
+
+.gathering-inquiry-table tbody tr td:nth-child(2) span {
+  display: block;
+  width: 156px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.gathering-inquiry-table thead tr th:nth-child(3),
+.gathering-inquiry-table tbody tr td:nth-child(3) {
+  text-align: left;
+  width: 239px;
+}
+
+.gathering-inquiry-table thead tr th:nth-child(4),
+.gathering-inquiry-table tbody tr td:nth-child(4) {
+  text-align: center;
+  width: 49px;
+  padding-right: 74px;
+}
+
+.gathering-inquiry-table tbody tr td:nth-child(4) span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.gathering-inquiry-table thead tr th:last-child,
+.gathering-inquiry-table tbody tr td:last-child {
+  text-align: center;
+  width: 130px;
+  padding-right: 31px;
+  width: 57px;
+}
+
+.gathering-inquiry-table tbody tr td:last-child a {
+  background: #5a636a;
+  border: 1px solid #5a636a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 29px;
+  /* padding: 3px 8px; */
+}
+
+.gathering-inquiry-table tbody tr td:last-child img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}

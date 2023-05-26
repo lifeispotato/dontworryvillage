@@ -1,0 +1,16 @@
+.manage-form-information {
+  height: 786px;
+  padding: 48px 28px 28px 48px;
+}
+
+.manage-form-information > p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #262c31;
+  margin-bottom: 18px;
+}
+
+.manage-form-save-information button {
+  bottom: 30px;
+}
